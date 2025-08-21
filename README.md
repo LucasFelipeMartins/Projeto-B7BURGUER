@@ -25,7 +25,7 @@ Este repositório contém um projeto desenvolvido durante o curso **B7Web**, com
 
 ## 🚀 Como executar
 1. Clone este repositório:
-   git clone https://github.com/SeuUsuario/NomeDoRepositorio.git
+   git clone https://github.com/SeuUsuario/Projeto-B7BURGUER.git
 
 📌 Observações
 
