@@ -20,6 +20,7 @@ Este repositório contém um projeto desenvolvido durante o curso **B7Web**, com
 ## 📸 Demonstração
 
 <img src="assets/imgs/demonstração.png" alt="Preview do Projeto" width="500">
+
 ---
 
 ## 🚀 Como executar
