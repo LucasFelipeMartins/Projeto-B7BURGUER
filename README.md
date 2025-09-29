@@ -13,7 +13,7 @@ Este repositório contém um projeto desenvolvido durante o curso **B7Web**, com
 
 ## 🛠️ Tecnologias Utilizadas
 - **HTML5** → marcação e estrutura da página  
-- **CSS3** → estilização, flexbox e responsividade  
+- **CSS3** → estilização, flexbox e responsividade
 
 ---
 
