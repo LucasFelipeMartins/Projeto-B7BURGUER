@@ -1,57 +1,53 @@
-🍔 Hamburgueria - Projeto B7Web
+# 🍔 **Hamburgueria - Projeto B7Web**
 
-Este repositório contém um projeto desenvolvido durante o curso B7Web, com o objetivo de praticar os fundamentos de HTML, CSS e JavaScript, além de trabalhar responsividade e interatividade na web.
+Este repositório contém um projeto desenvolvido durante o curso **B7Web**, com o objetivo de **praticar fundamentos de HTML, CSS e JavaScript**, além de aplicar **conceitos de responsividade e interatividade** na web.  
+O projeto simula a página de uma **hamburgueria moderna**, incluindo uma **página de cadastro com validação de dados**.
 
-🎯 Objetivo
+---
 
-Fixar os conceitos básicos de HTML, CSS e JavaScript
+## 🎯 **Objetivo do Projeto**
+- Consolidar os conceitos fundamentais de **HTML, CSS e JavaScript**.  
+- Desenvolver **layouts responsivos** (desktop, tablet e mobile).  
+- Praticar **validação de formulários** com JavaScript.  
+- Criar uma **interface simples e funcional** de uma hamburgueria fictícia.  
+- Reforçar boas práticas de **estruturação e organização de código front-end**.  
 
-Treinar layouts responsivos (desktop, tablet e mobile)
+---
 
-Simular a página de uma hamburgueria moderna
+## 🛠️ **Tecnologias Utilizadas**
+- **HTML5** → estrutura semântica e organização da página.  
+- **CSS3** → estilização, uso de Grid e Flexbox, e design responsivo.  
+- **JavaScript (JS)** → manipulação de DOM, validação de formulários e feedback ao usuário.  
 
-Implementar uma página de cadastro validando os dados com JavaScript
+---
 
-🛠️ Tecnologias Utilizadas
+## ⚙️ **Funcionalidades**
+- 🏠 **Página principal** com layout moderno e totalmente responsivo.  
+- 🧾 **Página de cadastro** interativa, com:  
+  - Verificação de campos obrigatórios.  
+  - Validação de tamanho mínimo de caracteres.  
+  - Exibição de mensagens de erro em tempo real.  
+- 💡 Feedback visual para o usuário ao preencher os campos corretamente.  
+- 🧱 Código limpo, comentado e organizado por seções.  
 
-HTML5 → estrutura e semântica da página
+---
 
-CSS3 → estilização, layout responsivo, grid e flexbox
+## 🧠 **Como Executar o Projeto**
 
-JavaScript (JS) → manipulação de DOM e validação do formulário de cadastro
+- Durante o desenvolvimento deste projeto, foram praticados conceitos importantes como:
 
-⚙️ Funcionalidades
+- Estrutura semântica com HTML5
 
-Página principal da hamburgueria
+- Responsividade utilizando Flexbox e CSS Grid
 
-Página de cadastro com validação de campos
+- Manipulação de eventos no JavaScript
 
-Exibe mensagens de erro quando o usuário deixa algum campo vazio ou preenche incorretamente
+- Validação de formulários e exibição de mensagens dinâmicas
 
-Design totalmente responsivo
+- Organização de código e boas práticas de desenvolvimento front-end
 
-Código organizado e de fácil manutenção
+---
 
-🚀 Como Executar o Projeto
-
-Clone este repositório:
-
-git clone https://github.com/LucasFelipeMartins/Projeto-B7BURGUER.git
-
-Abra o arquivo cadastro.html no seu navegador
-
-🧠 Aprendizados
-
-Durante o desenvolvimento, foram praticados conceitos importantes como:
-
-Estrutura semântica com HTML
-
-Responsividade com Flexbox e Grid
-
-Manipulação de eventos no JavaScript
-
-Validação de formulários e feedback para o usuário
-
-👨‍💻 Autor
+##  👨‍💻 **Autor
 
 Lucas Felipe Martins
