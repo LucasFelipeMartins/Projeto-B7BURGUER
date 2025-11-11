@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+
+body{
+
+    padding: 0;
+    margin: 0;
+    background-color: #141414;
+    color: #fff;
+
+}
+
+.container{
+
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px ;
+
+}
+
+a{
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.logo{
+
+    font-family: "Calistoga";
+    font-size: 36px;
+
+}
+
+a span{
+
+    color: #919191;
+
+}
+
+li{
+
+    list-style: none;
+    font-size: 18px;
+    margin: 0px 20px;
+    
+}
+
+ul{
+
+    display: flex;
+    align-items: center;
+
+}
+
+li a{
+    
+    color: #919191;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.pedido{
+
+    border: #919191 1px solid;
+    color: #9e9e9e;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-size: 19px;
+    width: max-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.pedido:hover{
+
+    background-color: rgb(46, 46, 46);
+
+}
+
+.mobile{
+
+    display: none;
+    flex-direction: column;
+
+}
+
+.barra{
+
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin: 2px;
+
+}
+
+header nav{
+
+    display: flex;
+    align-items: center;
+    flex: 1;
+
+}
+
+header .container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+nav .menu{
+
+    display: flex;
+    flex: 1;
+
+}
+
+.hero .container{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+h1{
+
+    color: #fff;
+    font-family: "Calistoga";
+    font-size: 70px;
+    letter-spacing: 2px;
+
+}
+
+p{
+
+    color: #919191;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 16px;
+    padding-right: 190px;
+    margin-bottom: 70px;
+
+}
+
+button{
+
+    color: #e9e9e9;
+    background-color: #fe6a0f;
+    font-family: "Inter";
+    border: 0;
+    font-optical-sizing: auto;
+    letter-spacing: 2px;
+    font-size: 15px;
+    width: max-content;
+    padding: 10px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.busca{
+
+    background-color: #292929;
+    margin-top: -100px;
+    padding: 20px;
+
+}
+
+h2{
+
+    color: #fff;
+    font-family: "Calistoga";
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+
+}
+
+.pesquisa input{
+
+    background-color: #3b3b3b;
+    border: 0;
+    padding: 16px 80px;
+
+}
+
+.pesquisa{
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.pesquisa img{
+
+    margin-left: 20px;
+    position: absolute;
+
+}
+
+.busca .container{
+
+    display: flex;
+    gap: 400px;
+
+}
+
+.escolha{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+select{
+
+    background-color: #3b3b3b;
+    border: 0;
+    padding: 14px 80px;
+    color: #919191;
+    font-size: 15px;
+    border-right: 20px solid #3b3b3b;
+
+}
+
+.pesquisa ::placeholder{
+
+    color: #919191;
+    font-size: 14px;
+
+}
+
+.esquerda{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card{
+
+    background-color: #3b3b3b;
+    margin-top: 40px;
+    margin: 20px;
+    flex: 1;
+    min-width: 290px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+main img{
+
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    position: relative;
+
+}
+
+.promocao{
+
+    font-size: 14px;
+    background-color: #fe6a0f;
+    height: 15px;
+    padding: 5px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -20px;
+    z-index: 2;
+
+}
+
+.tipo{
+ 
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    letter-spacing: 1px;
+    font-size: 12px;
+    width: max-content;
+    padding-bottom:11px; 
+
+}
+
+.nome{
+
+    color: #fff;
+    font-family: "Calistoga";
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+
+}
+
+.preco{
+
+    color: #fe6a0f;
+    font-family: "Calistoga";
+    font-size: 19px;
+    letter-spacing: 2px;
+
+}
+
+.tipo,
+.nome,
+.preco{
+
+    margin-left: 20px;
+
+}
+
+.sobre{
+
+    width: 100%;
+    height: 100%;    
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -30px;
+
+}
+
+main .container{
+
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer{
+    
+    padding-top: 20px;
+    background-color: #292929;
+    padding-bottom: 20px;
+
+}
+
+footer span{
+
+    color: #919191;
+    font-family: "Inter";
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+a span{
+
+    color: #fe6a0f;
+
+}
+
+
+@media (min-width:860px) and (max-width: 1200px){
+
+    .container{
+        
+        width: 100%;
+        margin: auto;
+        padding: 0px 20px 0px 20px;        
+
+    }
+
+    .busca .container{
+
+        display: flex;
+        gap: 170px;
+    
+    }
+
+    header nav{
+
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+
+    }
+
+    p{
+
+        color: #919191;
+        font-family: "Inter";
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 16px;
+        padding-right: 10px;
+        margin-bottom: 70px;
+        
+    }
+
+    footer .container{
+
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+    }    
+
+    main .container{
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    
+    }
+
+
+}
+
+@media (max-width: 860px){
+
+    .mobile{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+    
+    }
+
+    main .container{
+
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;    
+    }
+
+
+    header nav{
+
+        display: none;
+        align-items: center;    
+    }
+
+    .logo{
+
+        color: #fff;
+        font-family: "Calistoga";
+        font-size: 36px;
+        text-align: center;
+        flex: 1;
+    
+    }
+
+    header .container{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 100px;
+    
+    }
+
+    
+    .busca{
+
+        background-color: #292929;
+        margin-top: -80px;
+        padding: 20px;
+
+    }
+
+    .busca .container{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    .hero .container{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .escolha{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        width: 330px;
+        
+    }
+
+    .container{
+            
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        
+    }
+
+    .hero .conteudo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    p{
+
+        color: #919191;
+        font-family: "Inter";
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-size: 16px;
+        margin-top: -20px;
+        padding-right: 60px;
+        padding-left: 60px;
+        margin-bottom: 60px;
+        text-align: center;
+        
+    }
+
+    .span2{
+
+        flex: 1;
+        text-align: center;
+
+    }
+
+}
+
+@media (max-width: 440px){
+
+    h1{
+
+        color: #fff;
+        font-family: "Calistoga";
+        font-size: 50px;
+        letter-spacing: 2px;
+    
+    }
+
+    .imagem img{
+
+        width: 300px;
+        height: 400px;
+
+    }
+
+    .logo{
+
+        font-family: "Calistoga";
+        font-size: 24px;
+        
+    }
+    
+header .logo{
+   
+        margin-left: 20px;
+
+    }
+}
+
+.cadastro-container {
+
+    max-width: 600px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #292929;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+
+
+.cadastro-container h2 {
+
+    color: #fff;
+    font-family: "Calistoga";
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+
+.cadastro-container p {
+
+    color: #919191;
+    font-family: "Inter";
+    font-size: 16px;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 30px;
+
+}
+
+.form-group {
+
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-group label {
+
+    font-family: "Inter";
+    font-size: 16px;
+    color: #c7c7c7;
+    margin-bottom: 8px;
+
+}
+
+.form-group input {
+
+    background-color: #3b3b3b;
+    border: 1px solid #3b3b3b;
+    padding: 16px 20px;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 1.0s;
+
+}
+
+.form-group input::placeholder {
+
+    color: #919191;
+    
+}
+
+.form-group input:focus {
+
+    border-color: #fe6a0f;
+
+}
+
+.error-message {
+
+    color: #fe6a0f;
+    font-family: "Inter";
+    font-size: 14px;
+    margin-top: 6px;
+    display: none;
+
+}
+
+.form-group input.error {
+
+    border-color: #fe6a0f;
+
+}
+
+.form-group .error-message.visible {
+
+    display: block;
+
+}
+
+
+.cadastro-container button {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 16px 45px;
+    letter-spacing: 2px;
+    font-family: "Inter";
+    font-weight: 600;
+}
+
+
+.cadastro-container button:disabled {
+
+    background-color: #5a5a5a;
+    color: #919191;
+    cursor: not-allowed;
+
+}
+
+
+@media (max-width: 860px) {
+    .cadastro-container p {
+
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 12px;
+        margin-top: 5px;
+
+    }
+}
+@media (max-width: 440px) {
+    .cadastro-container {
+
+        padding: 20px;
+
+    }
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - B7 Burguer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cadastro-page">
+
+    <header>
+        <div class="container">
+
+            <div class="logo"><a href=" ">B7 <span>●</span> Burguer</a></div>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            
+            <form id="cadastro-form" class="cadastro-container" novalidate>
+                <h2>Crie sua Conta</h2>
+                <p>Complete os campos abaixo para fazer seu pedido.</p>
+
+                <div class="form-group">
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefone">Telefone / WhatsApp</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="(XX) XXXXX-XXXX" required>
+                    <span class="error-message"></span>
+                </div>
+
+                <button type="submit" id="submit-btn" disabled>Cadastrar</button>
+
+            </form>
+
+        </div>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="logo"><a href=" ">B7 <span>●</span> Burguer</a></div>
+            <span class="span2">Powered by Lucas.</span>
+        </div>
+    </footer>
+
+    <script src="cadastro.js"></script>
+</body>
+</html>
